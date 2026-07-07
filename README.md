@@ -38,7 +38,7 @@ GOOGLE_API_KEY=your_key_here
 
 ## Step 2: The backend (`api.py`)
 
-This is almost the same as the sentiment API from Lesson 10. We just add one more field to the answer: a one-word **theme** (like "delivery" or "taste"), so the owner can see *what* people talk about.
+Adding specific field to the answer. Example: a one-word **theme** (like "delivery" or "taste"), so the owner can see *what* people talk about.
 
 The full code is in `api.py`. The important part is the answer shape:
 
